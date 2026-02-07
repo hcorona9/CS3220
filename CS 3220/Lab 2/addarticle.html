@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel= stylesheet href="../assets/CSS/styles.css "/>
+    </head>
+    <body>
+        <nav class="menu">
+            <p class="blue">Hector Corona</p>
+            <div class="center"><p class="white">My Favorite Articles</p></div>
+            <div class="right"><p class="red">Login</p></div>
+        </nav>
+        <h2><a href=file:///Users/hectorcorona/Desktop/Sites/CS%203220/Lab%202/articles.html>Articles</a> > New Article</h2>
+        <!-- for article submission to be saved -->
+        <form action="/submit_article" method="post">
+
+            <div class="align">
+                <label for="title">Title: </label>
+                <input type="text" id="title" name="title" required>
+            </div>
+
+            <div class="align">
+                <label for="author">Author: </label>
+                <input type="text" id="author" name="author" required>
+            </div>
+
+            <div class="align">
+                <label for="publish_date">Publish Date: </label>
+                <input type="date" id="publish_date" name="publish_date" required>
+            </div>
+
+            <div class="align">
+                <label for="link">Link: </label>
+                <input type="url" id="link" name="link" required>
+            </div>
+            <!--
+            <label for="add">Add</label></br>
+            <input type="button" id="add" name="add" required></br> -->
+            <button type="button">Add</button>
+
+        </form></br>
+
+        <footer>
+            <nav class="footer">
+                <p class="white">Hector Corona</p>
+                <p class="white">Copyright © Hector Corona</p>
+            </nav>
+        </footer>
+
+
+    </body>
+
+
+
+</html>

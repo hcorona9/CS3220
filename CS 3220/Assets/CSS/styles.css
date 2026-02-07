@@ -1,0 +1,62 @@
+.red{
+    color:red;
+    font-size: 100%;
+}
+
+.blue{
+    color: blue
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 1px;
+    font-size: 100%;
+}
+
+.footer{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    flex-direction:column;
+    padding: 1px;
+    align-items: center;
+}
+footer p{
+    margin: 2px; /* only messes with p inside of the footer/ tightens the gap */
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.white{
+    color:white
+}
+/*
+.align {
+    display: flex;
+    align-items: center;
+}*/
+
+.align {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.align label {
+  width: 140px; /* moves my input box */
+  text-align: right; /* moves my text box */
+}

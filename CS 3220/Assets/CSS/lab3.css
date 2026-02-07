@@ -1,0 +1,55 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    padding: 1px;
+    font-size: 100%;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    flex-direction: column;
+    padding: 1px;
+    align-items: center;
+}
+
+.white {
+    color: white;
+}
+
+.right {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.right p { /* somehow made the header border significantly smaller */
+    margin: 2px;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+    gap:12px;
+    justify-content: center;
+}
+
+#headlink a:link {
+    color: green;
+}
+
+#headlink a:visited {
+    color: orange;
+}
+
+#headlink a:hover {
+    color: hotpink;
+}
+
+#headlink a:active { /*I think this is what he mans by selected */
+    color: blue;
+}
