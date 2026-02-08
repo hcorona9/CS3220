@@ -64,3 +64,8 @@ table {
 body {
     background-image: linear-gradient(120deg, #2980b9, #8e44ad)
 }
+
+.highlight {
+    color:red;
+    font-weight:bold;
+}
