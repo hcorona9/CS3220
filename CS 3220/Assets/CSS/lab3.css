@@ -4,6 +4,7 @@
     background-color: grey;
     padding: 1px;
     font-size: 100%;
+    gap: 30px;
 }
 
 .footer {
@@ -53,3 +54,8 @@
 #headlink a:active { /*I think this is what he mans by selected */
     color: blue;
 }
+
+table {
+    margin:5px auto;
+}
+
