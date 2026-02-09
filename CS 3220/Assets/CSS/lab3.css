@@ -7,6 +7,7 @@
     gap: 30px;
     box-sizing: border-box;
     width: 100%;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -19,6 +20,7 @@
     align-items: center;
     flex-direction:column;
     margin-top:50px;
+    border-radius:0 0 15px 15px;
 }
 
 .footer p {
@@ -62,6 +64,20 @@
     color: blue;
 }
 
+#linkhighlight a:visited {
+    color: yellowgreen;
+}
+
+#linkhighlight a:link {
+    color: yellowgreen;
+}
+
+#linkhighlight a:hover {
+    color: yellowgreen;
+}
+#linkhighlight a:active {
+    color: yellowgreen;
+}
 
 body {
     background-image: linear-gradient(120deg, #2980b9, #8e44ad);
@@ -90,11 +106,20 @@ body {
     padding:1px;
 }
 
-.first_row .cell {
+.first_row .cell { /*makes the individual header cells centered and highlighted*/
     text-align: center;
     font-weight: bold;
 }
 
+.first_row, .cell { /*makes the cells below header be centered */
+    text-align: center;
+}
+
+
 .row:hover {
     background-color: lightblue;
+}
+
+h2 {
+    margin-top: 2px;
 }
