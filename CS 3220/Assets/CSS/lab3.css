@@ -18,6 +18,11 @@
     padding: 1px;
     align-items: center;
     flex-direction:column;
+    margin-top:50px;
+}
+
+.footer p {
+    margin: 2px; /* only changes the p inside footer*/
 }
 
 .white {
@@ -57,12 +62,10 @@
     color: blue;
 }
 
-.table {
-    margin:5px auto;
-}
 
 body {
-    background-image: linear-gradient(120deg, #2980b9, #8e44ad)
+    background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+    margin:0; /* removes margin around header and footer*/    
 }
 
 .highlight {
@@ -70,24 +73,28 @@ body {
     font-weight:bold;
 }
 
-.table {
+.table{
     width:60%;
     margin:auto;
-    border: 1px black;
+    border: 1px;
 }
 
-.first_row {
+.row, .first_row {
     display:flex;
-    border-bottom:1px black;
+    border-bottom:1px solid grey; /* does not work without solid*/
+    gap:12px;
 }
 
-.row {
-    display:flex;
-    border-bottom:1px black;
-}
-
-.cell {
+.cell{
     flex:1;
-    border-right:1px black;
     padding:1px;
+}
+
+.first_row .cell {
+    text-align: center;
+    font-weight: bold;
+}
+
+.row:hover {
+    background-color: lightblue;
 }
