@@ -57,7 +57,7 @@
     color: blue;
 }
 
-table {
+.table {
     margin:5px auto;
 }
 
@@ -68,4 +68,26 @@ body {
 .highlight {
     color:red;
     font-weight:bold;
+}
+
+.table {
+    width:60%;
+    margin:auto;
+    border: 1px black;
+}
+
+.first_row {
+    display:flex;
+    border-bottom:1px black;
+}
+
+.row {
+    display:flex;
+    border-bottom:1px black;
+}
+
+.cell {
+    flex:1;
+    border-right:1px black;
+    padding:1px;
 }
