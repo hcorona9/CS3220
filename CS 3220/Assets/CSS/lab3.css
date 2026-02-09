@@ -7,6 +7,7 @@
     gap: 30px;
     box-sizing: border-box;
     width: 100%;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -18,6 +19,12 @@
     padding: 1px;
     align-items: center;
     flex-direction:column;
+    margin-top:50px;
+    border-radius:0 0 15px 15px;
+}
+
+.footer p {
+    margin: 2px; /* only changes the p inside footer*/
 }
 
 .white {
@@ -57,15 +64,62 @@
     color: blue;
 }
 
-table {
-    margin:5px auto;
+#linkhighlight a:visited {
+    color: yellowgreen;
+}
+
+#linkhighlight a:link {
+    color: yellowgreen;
+}
+
+#linkhighlight a:hover {
+    color: yellowgreen;
+}
+#linkhighlight a:active {
+    color: yellowgreen;
 }
 
 body {
-    background-image: linear-gradient(120deg, #2980b9, #8e44ad)
+    background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+    margin:0; /* removes margin around header and footer*/    
 }
 
 .highlight {
     color:red;
     font-weight:bold;
+}
+
+.table{
+    width:60%;
+    margin:auto;
+    border: 1px;
+}
+
+.row, .first_row {
+    display:flex;
+    border-bottom:1px solid grey; /* does not work without solid*/
+    gap:12px;
+}
+
+.cell{
+    flex:1;
+    padding:1px;
+}
+
+.first_row .cell { /*makes the individual header cells centered and highlighted*/
+    text-align: center;
+    font-weight: bold;
+}
+
+.first_row, .cell { /*makes the cells below header be centered */
+    text-align: center;
+}
+
+
+.row:hover {
+    background-color: lightblue;
+}
+
+h2 {
+    margin-top: 2px;
 }
