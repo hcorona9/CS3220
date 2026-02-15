@@ -12,6 +12,14 @@
     text-align: left;
 }
 
+.black {
+    color: black;
+}
+
+.tab {
+    padding-left: 75px;
+}
+
 .background {
     background-image: linear-gradient(120deg, #2980b9, #8e44ad);
 }
