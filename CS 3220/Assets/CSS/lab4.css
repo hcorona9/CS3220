@@ -16,8 +16,12 @@
     color: black;
 }
 
-.tab {
+.tab-left{
     padding-left: 75px;
+}
+
+.tab-right {
+    padding-right: 40px;
 }
 
 .background {
@@ -36,6 +40,12 @@
     color: hotpink;
 }
 
-#headlink a:active { /*I think this is what he mans by selected */
+#headlink a:active {
     color: blue;
+}
+
+.center {
+    text-align: center;
+    gap:12px;
+    justify-content: center;
 }
