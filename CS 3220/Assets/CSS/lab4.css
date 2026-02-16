@@ -49,3 +49,18 @@
     gap:12px;
     justify-content: center;
 }
+
+#linkhighlight a:visited {
+    color: yellowgreen;
+}
+
+#linkhighlight a:link {
+    color: yellowgreen;
+}
+
+#linkhighlight a:hover {
+    color: yellowgreen;
+}
+#linkhighlight a:active {
+    color: yellowgreen;
+}
