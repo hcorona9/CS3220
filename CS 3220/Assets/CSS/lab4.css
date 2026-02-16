@@ -64,3 +64,16 @@
 #linkhighlight a:active {
     color: yellowgreen;
 }
+
+.cell {
+    flex:1px;
+}
+
+.first_row .cell {
+    text-align: center;
+    font-weight: bold;
+}
+
+.data-row:hover {
+    background-color: lightblue !important;
+}
