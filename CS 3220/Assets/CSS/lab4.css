@@ -1,0 +1,83 @@
+.right {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.left {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.black {
+    color: black;
+}
+
+.tab-left{
+    padding-left: 75px;
+}
+
+.tab-right {
+    padding-right: 40px;
+}
+
+.background {
+    background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+
+#headlink a:link {
+    color: green;
+}
+
+#headlink a:visited {
+    color: orange;
+}
+
+#headlink a:hover {
+    color: hotpink;
+}
+
+#headlink a:active {
+    color: blue;
+}
+
+.center {
+    text-align: center;
+    gap:12px;
+    justify-content: center;
+}
+
+#linkhighlight a:visited {
+    color: yellowgreen;
+}
+
+#linkhighlight a:link {
+    color: yellowgreen;
+}
+
+#linkhighlight a:hover {
+    color: yellowgreen;
+}
+#linkhighlight a:active {
+    color: yellowgreen;
+}
+
+.cell {
+    flex:1px;
+}
+
+.first_row .cell {
+    text-align: center;
+    font-weight: bold;
+}
+
+.data-row:hover {
+    background-color: lightblue !important;
+}
+
+.radius {
+    border-radius: 0 0 45px 45px;
+}
