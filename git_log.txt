@@ -1,15 +1,3 @@
-commit b4e22c1cc0b851e74803b83b5faf788d864caacf
-Author: Corona <hcorona9@calstatela.edu>
-Date:   Mon Feb 16 15:27:07 2026 -0800
-
-    added highlights to lab4 table. Login is empty rn
-
-commit 5460f43442a7aad58a777137846e964a59469bfa
-Author: Corona <hcorona9@calstatela.edu>
-Date:   Mon Feb 16 12:03:38 2026 -0800
-
-    footer is now at the bottom. Links in 'table' are now yellowgreen
-
 commit 6b2295e35cfde33665d6faf765b5edd4e2ca86e1
 Author: Corona <hcorona9@calstatela.edu>
 Date:   Sat Feb 14 23:13:53 2026 -0800
