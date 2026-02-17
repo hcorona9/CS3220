@@ -14,21 +14,21 @@
     </head>
 
     <body class="d-flex align-items-center justify-content-center bg-body-secondary" style="min-height: 100vh; background-image: linear-gradient(120deg, #2980b9, #8e44ad);">
-        <div class="card bg-dark text-white rounded-4 shadow col-12 col-sm-10 col-md-6 col-lg-4"> <!-- entire div must be under this div -->
+        <div class="card bg-dark text-white rounded-4 shadow w-auto px-3"> <!-- entire div must be under this div -->
             <div class="card-body p-4 text-center m-2 fw-bold">
                 <h1 class="fw-bold mb-2">LOGIN</h1>
                 <p class="text-secondary">Please enter your login and password!</p>
             </div> <!-- m/p is the size of the box?-->
 
             <div> <!-- div for email -->
-                <div class="mb-3 text-center">
+                <div class="mb-3 text-center w-75 mx-auto">
                     <input type="email" class="form-control" id="email-in">
                     <label for="email-in" class="form-label text-white">Email</label>
                 </div>
             </div>
 
             <div> <!-- div for password -->
-                <div class="mb-3 text-center">
+                <div class="mb-3 w-75 mx-auto text-center">
                     <input type="password" class="form-control" id="password-in">
                     <label for="password-in" class="form-label text-white">Password</label>
                 </div>
@@ -37,19 +37,21 @@
             <div class="text-center"> <!-- div for forgot password -->
                 <p class="text-secondary"><a href="#" class="text-decoration-none text-secondary">Forgot password?</a></p>
             </div>
-
+            </br></br>
             <div> <!-- div for login button -->
                 <div class="d-flex justify-content-center mb-3">
-                    <button type="submit" class="btn btn-outline-light rounded-pill px-5"><a href="./articles.html">Login</a></button>
+                    <button type="submit" class="btn btn-outline-light rounded btn -light px-5"><a href="./articles.html" class="text-white">Login</a></button>
                 </div>
             </div>
 
-            <div> <!-- div for facebook, twitter and google icons -->
-
-            </div> 
-
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+                <a class="text-white fs-4"><i class="bi bi-twitter-x"></i></a>
+                <a class="text-white fs-4"><i class="bi bi-google"></i></a>
+            </div>
+        </br></br></br></br></br>
             <div> <!-- div for sign up -->
-
+                <p class="text-center">Don't have an account? <a href="#" class="text-decoration-none text-secondary">Sign Up</a></p>
             </div>
 
         </div>
